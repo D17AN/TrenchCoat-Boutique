@@ -107,7 +107,6 @@ void UI::run(){
 	ui.runProgram();
 
 	delete basket;
-	basket = nullptr;
 }
 
 
