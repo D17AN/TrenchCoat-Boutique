@@ -16,7 +16,7 @@ Trench coats are cool. Everyone should own a trench coat. The *“Proper Trench 
 
 ### Details
   - The application is implemented using **Layered Arhitecture** (domain, repository, controller/service, gui)
-  - The UML Diagram of the project can be visualized by accessing `diagram.svg`.
+  - The UML Diagram of the project can be visualized by accessing `diagram.svg` (the diagram is made by using the UI and not the GUI which can be found in Project.h and Project.cpp).
   - The repository is loaded automatically from file `initRepository.txt` at the beggining of the application. Any changes done to the repository during the runtime are saved in the same file.
   - The basket is implemented using **Polymorphism**. An abstract basket is instantiated at the beggining of the program and depending of the user option it can be set to an **HTML** or **CSV** basket, such the user is able to open the basket file in the correct format.
   - Validations and Custom exception classes for Trench Coat and Repository exceptions are used.
